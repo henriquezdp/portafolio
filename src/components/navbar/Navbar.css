@@ -8,8 +8,10 @@
   padding-left: 80px;
 } */
 .navbarItems {
+  /* position: fixed; */
   background-color: grey;
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +22,9 @@
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
+}
+.fa-code {
+  margin-left: 0.5rem;
 }
 .nav-menu {
   display: grid;
@@ -60,7 +65,7 @@
     height: 500px;
     position: absolute;
     top: 80px;
-    left: 0;
+    left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
   }
