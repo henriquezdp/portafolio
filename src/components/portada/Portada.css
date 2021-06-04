@@ -1,0 +1,18 @@
+.portada-container {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portada-container > h1 {
+  font-size: 70px;
+}
+
+.portada-container > p {
+  margin-top: 8px;
+  font-size: 32px;
+  /*  font-family: 'Roboto ', sans-serif; */
+}
