@@ -6,6 +6,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* background-color: blueviolet; */
+}
+
+.imagen {
+  width: 20rem;
+  border-radius: 300px;
 }
 .portada-container > h1 {
   font-size: 70px;
