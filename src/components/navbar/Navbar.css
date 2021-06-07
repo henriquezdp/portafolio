@@ -58,6 +58,7 @@
   .navbarItems {
     /* position: relative; */
     position: fixed;
+    z-index: 1;
   }
 
   .nav-menu {
