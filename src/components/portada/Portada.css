@@ -3,22 +3,37 @@
   width: 100%;
   object-fit: contain;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(1, 0, 0, 0.9);
   /* background-color: blueviolet; */
+}
+
+.fondo {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
 }
 
 .imagen {
   width: 20rem;
   border-radius: 300px;
 }
-.portada-container > h1 {
+.titulo-container {
+  padding: 40px;
+}
+.titulo-container > h1 {
+  color: royalblue;
   font-size: 70px;
 }
 
-.portada-container > p {
+.titulo-container > p {
+  color: #fff;
   margin-top: 8px;
   font-size: 32px;
+  text-align: center;
   /*  font-family: 'Roboto ', sans-serif; */
 }
