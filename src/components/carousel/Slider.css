@@ -78,8 +78,9 @@
   }
 }
 
-@media Screen and (max-width: 480px) {
+@media Screen and (max-width: 500px) {
   .carousel-container {
+    display: flex;
     flex-direction: column;
   }
   .carousel-tittle {
